@@ -24,7 +24,7 @@ class SongLyricsSpider(scrapy.Spider):
         "vallenato", "world-music", "xote", "jovem-guarda", "zamba", "zouk"
     ]
 
-    max_results_per_genre = 5
+    max_results_per_genre = 1000
     seen_ids = set()  
 
     def start_requests(self):
